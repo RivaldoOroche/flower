@@ -96,7 +96,7 @@ class Head {
     this[this.type](this.r);
     ctx.restore();
   }
-
+ 
   rosa(r) {
     for (let k = 0; k < 5; k++) {
       const len = r * (1 - k * 0.17), wid = r * 0.78 * (1 - k * 0.1);
@@ -177,7 +177,7 @@ class Head {
     }
   }
 }
-
+ 
 /* ---------- Construir el ramo ---------- */
 function buildBouquet() {
   palette = pick(PALETAS);
